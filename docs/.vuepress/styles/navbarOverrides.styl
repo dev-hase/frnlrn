@@ -1,0 +1,89 @@
+
+.navbar 
+	background #0f1015
+	opacity .92
+	box-shadow 0px 1px 4px #111
+	border-bottom none
+
+.navbar .links
+	background-color unset !important
+
+.navbar .logo
+	display none
+
+.site-name, .links
+	color #efefef !important
+	font-weight regular
+	font-style regular
+	font-family $fontB
+	//letter-spacing 1.5px
+
+.nav-link:hover, .nav-link:focus
+	color lighten($accentColor, 20%) !important
+
+.links a.router-link-active
+	color lighten($accentColor, 20%) !important
+
+
+.wikiLink
+	display inline
+	width 0
+	height 0
+	@media (max-width $MQMobile)
+		width 2.1rem
+		height 2.25rem
+		margin-right .2rem
+	
+.search-box input:focus
+	margin-left 1rem
+
+
+/*
+
+
+
+.search-box input:focus
+	@media (max-width 960px)
+		position relative !important
+		top 0
+		left 0
+		right 0
+		min-width 100%
+		max-width 100%
+		width 100%
+		padding 0 1rem
+
+		height 3.75rem
+		background #333
+
+		font-size 1.5rem
+		font-weight bold
+		box-sizing border-box
+		border 1px solid #111 !important
+		z-index 1000
+		border-radius unset !important	
+
+.search-box 
+	input
+		transition unset !important
+		background-color #333 !important
+		color $warning !important
+		border-radius .4rem !important
+		border unset !important
+
+*/
+
+.hideMe
+	//display none
+
+.sidebar-button
+	width 2rem !important
+	height 2rem !important
+	padding .15rem !important
+	img
+		width 100%
+		height 100%
+
+.home-link, .navbar .links
+	filter drop-shadow(2px -3px 3px #333)
+		
