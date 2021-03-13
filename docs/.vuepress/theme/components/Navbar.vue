@@ -13,9 +13,6 @@
         :alt="$siteTitle"
       >
 
-      <span class="site-name">frn</span>
-      <span class="site-name">lrn.de</span>
-
 
     </RouterLink>
 
@@ -110,13 +107,18 @@ $navbar-horizontal-padding = 1.5rem
 .navbar
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
-  a, span, img
-    display inline-block
+  display flex
+  justify-content center
+
+  //a, span, img
+    //display inline-block
+
+
   .logo
-    height $navbarHeight - 1.4rem
-    min-width $navbarHeight - 1.4rem
-    margin-right 0.8rem
-    vertical-align top
+    height 7rem
+    min-width 7rem
+    margin-top -.7rem
+
 
   .links
     padding-left 1.5rem
@@ -132,6 +134,7 @@ $navbar-horizontal-padding = 1.5rem
       flex: 0 0 auto
       vertical-align top
 
+
 @media (max-width: $MQMobile)
   .navbar
     padding-left 4rem
@@ -141,23 +144,5 @@ $navbar-horizontal-padding = 1.5rem
       padding-left 1.5rem
 
 
-.site-name
-  font-size 1.75rem !important
-  margin-top .25rem
-  text-shadow 2px 2px 2px #333
-
-.site-name:nth-of-type(1)::first-letter
-  text-transform lowercase
-  font-size 2em
-
-.site-name:nth-of-type(2)::first-letter
-  text-transform capitalize
-  margin-left -.4rem
-  letter-spacing 0
-  font-size 1.5em
-
-.site-name::first-letter
-  //font-size 2em
-  letter-spacing -.15rem
 
 </style>

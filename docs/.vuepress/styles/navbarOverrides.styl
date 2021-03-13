@@ -1,22 +1,26 @@
 
 .navbar 
-	background #0f1015
-	opacity .92
-	box-shadow 0px 1px 4px #111
-	border-bottom none
+	background #00495a
+	border-bottom 5px solid $accentColor
 
 .navbar .links
 	background-color unset !important
 
 .navbar .logo
-	display none
+	//display none
+	@media (max-width $MQMobile)
+		margin-left -2rem
+		margin-top -.5rem
 
-.site-name, .links
+.links
 	color #efefef !important
 	font-weight regular
 	font-style regular
 	font-family $fontB
 	//letter-spacing 1.5px
+
+.site-name
+	display none !important
 
 .nav-link:hover, .nav-link:focus
 	color lighten($accentColor, 20%) !important
@@ -38,22 +42,22 @@
 	margin-left 1rem
 
 
-/*
 
 
 
 .search-box input:focus
-	@media (max-width 960px)
-		position relative !important
+	@media (max-width $MQMobile)
+		position fixed !important
+		display flex !important
+		justify-content center
 		top 0
-		left 0
-		right 0
 		min-width 100%
 		max-width 100%
-		width 100%
 		padding 0 1rem
-
-		height 3.75rem
+		margin 0
+		color $accentColor
+		text-align center
+		height 3.4rem
 		background #333
 
 		font-size 1.5rem
@@ -62,6 +66,8 @@
 		border 1px solid #111 !important
 		z-index 1000
 		border-radius unset !important	
+
+/*
 
 .search-box 
 	input
@@ -84,6 +90,10 @@
 		width 100%
 		height 100%
 
-.home-link, .navbar .links
-	filter drop-shadow(2px -3px 3px #333)
-		
+
+.logo
+	transition .2s
+.logo:hover
+	transform rotate(7.5deg) scale(1.1)
+	filter brightness(120%) drop-shadow(2px -1px 4px #555)
+	transition .3s

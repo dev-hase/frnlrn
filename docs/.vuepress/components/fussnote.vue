@@ -2,9 +2,10 @@
     <div class="fussnote">
      
         <span class="logoDesc">
+            <span class="frnlrnfooter">
             <span class="frnlrnFont">frn</span>
             <span class="frnlrnFont">lrn.de</span>
-             | 
+            </span>
             <span class="fussnoteB">Wiki für Fahranfänger</span>
         </span>   
 
@@ -23,8 +24,16 @@
 .logoDesc
     margin 0 1.5rem
     font-size 1rem
+    pointer-events none
+    
     @media (max-width $MQMobileNarrow)
         display none
+
+.frnlrnfooter
+    transform skew(358deg, 358deg)
+    display inline-block
+    color #00495a
+
 
 .frnlrnFont
     display inline-block
@@ -45,5 +54,6 @@
 .fussnoteB
     text-transform uppercase
     font-weight 300
+    color $accentColor
 
 </style>
