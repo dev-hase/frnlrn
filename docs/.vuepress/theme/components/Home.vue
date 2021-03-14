@@ -4,7 +4,7 @@
     :aria-labelledby="data.heroText !== null ? 'main-title' : null"
   >
     <div id="lpCover">
-      <span v-rellax="{ speed: 0 }" class="coverBg" />
+      <span v-rellax="{ speed: -9 }" class="coverBg" />
       <span v-rellax="{ speed: -6 }" class="coverMid" />
 
     </div>
