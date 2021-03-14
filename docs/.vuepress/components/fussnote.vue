@@ -21,6 +21,9 @@
     margin-top 65vh
     //margin-bottom -1.5rem
 
+    @media (max-width $MQMobile)
+        margin-top 75vh
+
 .logoDesc
     margin 0 1.5rem
     font-size 2rem
