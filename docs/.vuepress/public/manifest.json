@@ -1,15 +1,15 @@
 {
-    "theme_color": "#333",
+    "theme_color": "#fb47a5",
     "background_color": "#ffffff",
     "display": "standalone",
     "orientation": "portrait",
     "lang": "de-DE",
-    "categories": ["fitness", "sports", "karate"],
+    "categories": ["education", "bildung", "verkehrsregeln", "auto", "führerschein"],
     "scope": "/",
     "start_url": "/",
-    "app_name": "Karate-Dō Witten",
-    "short_name": "Karate-Dō Witten",
-    "description": "News und Nachschlagewerk",
+    "app_name": "frnlrn.de",
+    "short_name": "frnlrn",
+    "description": "Wiki für Fahranfänger",
     "icons": [
         {
             "src": "/img/icon-192x192.png",

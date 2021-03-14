@@ -121,14 +121,13 @@ export default {
 
 	@media (max-width $MQMobile)
 		grid-template-columns 1fr
-		word-wrap no-wrap
+		word-break keep-all
+		white-space nowrap
+
 
 	@media (min-width 1200px)
 		grid-template-columns 1fr 1fr 1fr
 		grid-gap 3vw
-
-	span
-		font-size 3rem
 
 	a 
 		display flex
@@ -136,13 +135,14 @@ export default {
 		flex-direction column
 		transition .3s
 		overflow hidden
-		padding 2rem
+		//padding 2rem
+		height 20rem
 
 		@media (max-width $MQMobile)
-			min-height 15rem
+			//min-height 15rem
 
 	a:hover
-		filter brightness(120%)
+		filter brightness(130%)
 		transition .2s
 
 // -------------------------------------------
@@ -153,7 +153,6 @@ export default {
 	color #eddd63
 	font-weight bolder
 	text-shadow 3px 3px 5px #333
-	line-height 2
 
 #l1:after
 	content '01'
