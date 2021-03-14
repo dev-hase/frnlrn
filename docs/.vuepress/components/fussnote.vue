@@ -30,7 +30,7 @@
     pointer-events none
     
     @media (max-width $MQMobile)
-        font-size 1rem
+        font-size 1.25rem
 
 .frnlrnfooter
     transform skew(358deg, 358deg)
