@@ -26,10 +26,10 @@
     <Content class="theme-default-content custom" />
 
   <footer id='lpFooter'>
+
+    <fussnote />    
+
     <section class='linkList'>
-      <router-link :to="'/wiki.html'">
-        Wiki
-      </router-link>   
       <router-link :to="'/impressum.html'">
         Impressum
       </router-link>  
@@ -38,6 +38,7 @@
       </router-link>  
 
     </section>
+
   </footer>
 
   </main>
@@ -163,4 +164,7 @@ export default {
     .feature
       h2
         font-size 1.25rem
+
+
+
 </style>

@@ -6,8 +6,8 @@
             <span class="frnlrnFont">frn</span>
             <span class="frnlrnFont">lrn.de</span>
             </span>
-            <span class="fussnoteB">Wiki für Fahranfänger</span>
-        </span>   
+            <span class="fussnoteB">| Wiki für Fahranfänger</span>
+        </span>  
 
     </div>    
 </template>
@@ -18,21 +18,21 @@
     display flex
     align-items center
     justify-content space-around
-    margin-top 3.5rem
-    margin-bottom -1.5rem
+    margin-top 65vh
+    //margin-bottom -1.5rem
 
 .logoDesc
     margin 0 1.5rem
-    font-size 1rem
+    font-size 2rem
     pointer-events none
     
-    @media (max-width $MQMobileNarrow)
-        display none
+    @media (max-width $MQMobile)
+        font-size 1rem
 
 .frnlrnfooter
     transform skew(358deg, 358deg)
     display inline-block
-    color #00495a
+    color #fff
 
 
 .frnlrnFont

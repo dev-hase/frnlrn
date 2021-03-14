@@ -4,8 +4,4 @@ pageClass: landingPage
 sidebar: false
 ---
 
-
-
 <lektionen />
-
-<fussnote />
