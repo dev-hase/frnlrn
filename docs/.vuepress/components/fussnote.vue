@@ -54,6 +54,6 @@
 .fussnoteB
     text-transform uppercase
     font-weight 300
-    color $accentColor
+    color #eee
 
 </style>

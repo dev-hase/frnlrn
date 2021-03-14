@@ -1,7 +1,6 @@
 import VueSimpleAlert from "vue-simple-alert";
 import VueRellax from 'vue-rellax';
 
-
 export default ({
   Vue, // the version of Vue being used in the VuePress app
   options, // the options for the root Vue instance
