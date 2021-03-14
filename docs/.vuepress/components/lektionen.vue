@@ -24,8 +24,9 @@
      
       <router-link :to="'/lektion04'" id="l4">
  		<div id="l4w">
-      	<span class="slabtext" id="l4a">Straßenverkehrssystem</span>
-      	<span class="slabtext" id="l4b">& seine Nutzung</span>
+      	<span class="slabtext" id="l4a">Straßen-</span>
+      	<span class="slabtext" id="l4b">verkehrssystem</span>
+      	<span class="slabtext" id="l4c">& seine Nutzung</span>
         </div>       
       </router-link>  
      
@@ -137,6 +138,9 @@ export default {
 		overflow hidden
 		//padding 2rem
 		height 20rem
+		border-bottom-left-radius 1.25rem
+		border-bottom-right-radius .25rem
+		border-top-right-radius .5rem
 
 		@media (max-width $MQMobile)
 			//min-height 15rem
@@ -153,6 +157,9 @@ export default {
 	color #eddd63
 	font-weight bolder
 	text-shadow 3px 3px 5px #333
+	letter-spacing -3px
+	font-family $fontA
+	//font-weight 300
 
 #l1:after
 	content '01'
@@ -171,17 +178,15 @@ export default {
 	display flex
 	justify-content center
 	flex-direction column
-	transform rotateX(20deg) scale(1.2) rotateY(5deg) rotateZ(0deg) translate3d(0px, 0px, 0px) skew(-12deg, -13deg)
+	transform rotate(-2deg)
 
 #l1a
-
-	letter-spacing -3px
 	transform rotate(3 deg)
-	font-family $fontA
-	font-weight 300
+
 
 #l1b
-	
+	background #dd254d
+	line-height 1.6 !important
 
 // -------------------------------------------
 
@@ -190,7 +195,7 @@ export default {
 	background #212b29
 	color #79f2d5
 	font-weight bolder
-	text-shadow 3px 3px 5px #333
+	
 
 #l2:after
 	content '02'
@@ -214,18 +219,20 @@ export default {
 
 	margin-bottom -2rem
 	text-decoration underline
+	font-weight 300
 
 #l2b
 
 	text-decoration none
 	color #e53512
+	text-shadow 3px 4px 5px #333
 
 // -------------------------------------------
 
 #l3
 	position relative
-	background #212b29
-	color #79f2d5
+	background #2c7761
+
 	font-weight bolder
 	text-shadow 3px 3px 5px #333
 
@@ -237,7 +244,7 @@ export default {
 	padding .5rem
 	background $accentColor
 	color #00495a
-	font-family $fontA 
+	
 	font-size 2rem
 	text-shadow none
 	filter drop-shadow(1px 2px 5px #555)
@@ -246,26 +253,32 @@ export default {
 	display flex
 	justify-content center
 	flex-direction column
-	transform rotate(3deg)
+	transform rotate(-6deg)
+
 
 #l3a
 
 	margin-bottom 2rem
-	text-decoration underline
+	text-transform uppercase
+	font-family $fontA 
+	color #eee
 
 #l3b
 
 	text-decoration none
-	color #e53512
+	color #aaa
+	font-family $fontB
+	text-decoration overline 
 
 // -------------------------------------------
 
 #l4
 	position relative
-	background #212b29
+	background #e2cc5d
+
 	color #79f2d5
 	font-weight bolder
-	text-shadow 3px 3px 5px #333
+	
 
 #l4:after
 	content '04'
@@ -287,24 +300,29 @@ export default {
 	transform rotate(3deg)
 
 #l4a
+	transform rotate(-1deg)
 
-	margin-bottom 2rem
-	text-decoration underline
+#l4a, #l4b
 
-#l4b
+	margin-bottom 1rem
+	color #701358
+	font-family $fontC
+	letter-spacing .9rem
+
+#l4c
 
 	text-decoration none
 	color #e53512
-
+	text-shadow 3px 3px 5px #333
 
 // -------------------------------------------
 
 #l5
 	position relative
-	background #212b29
+	background #1e8976
 	color #79f2d5
 	font-weight bolder
-	text-shadow 3px 3px 5px #333
+	
 
 #l5:after
 	content '05'
@@ -314,26 +332,29 @@ export default {
 	padding .5rem
 	background $accentColor
 	color #00495a
-	font-family $fontA 
-	font-size 2rem
+	font-size 2rem	 
 	text-shadow none
-	filter drop-shadow(1px 2px 5px #555)
+
 
 #l5w
 	display flex
 	justify-content center
 	flex-direction column
-	transform rotate(3deg)
+	
 
 #l5a
 
 	margin-bottom 2rem
-	text-decoration underline
+	transform rotate(-3deg)
+	font-family $fontB
+	text-shadow 3px 2px 7px #aaa
 
 #l5b
-
-	text-decoration none
-	color #e53512
+	font-family $fontA
+	background #74229e
+	padding .25rem
+	color #f2c04b
+	border 1px dashed #111
 
 // -------------------------------------------
 

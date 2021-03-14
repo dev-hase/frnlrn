@@ -3,8 +3,7 @@
      
         <span class="logoDesc">
             <span class="frnlrnfooter">
-            <span class="frnlrnFont">frn</span>
-            <span class="frnlrnFont">lrn.de</span>
+            <span class="frnlrnFont"><span class="firstLetter">f</span>rn<span class="secondLetter">L</span>rn.de</span>
             </span>
             <span class="fussnoteB">| Wiki für Fahranfänger</span>
         </span>  
@@ -37,20 +36,22 @@
     display inline-block
     color #fff
 
-
 .frnlrnFont
     display inline-block
     font-family $fontB
     font-weight normal
     line-height 1.5
+    margin-left -.5rem !important
 
-.frnlrnFont:nth-of-type(2)::first-letter
+
+
+.secondLetter
     text-transform capitalize
-    margin-left -.4rem
+    //margin-left .2rem
     letter-spacing 0
     font-size 1.5em
 
-.frnlrnFont::first-letter
+.firstLetter
     font-size 2em
     letter-spacing -.15rem
     
