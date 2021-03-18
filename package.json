@@ -8,7 +8,6 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
-    "vanilla-slab": "^0.2.3",
     "vue-rellax": "^0.2.0",
     "vue-simple-alert": "^1.1.1"
   }
