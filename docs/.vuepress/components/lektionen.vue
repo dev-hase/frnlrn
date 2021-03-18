@@ -194,7 +194,7 @@
 	background #212b29
 	color #79f2d5
 	font-weight bolder
-	background-image url(/img/l02.png)
+	background-image url(/img/l02.jpg)
 	background-size cover
 
 #l2:after
