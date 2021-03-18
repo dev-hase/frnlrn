@@ -35,7 +35,8 @@
       <router-link :to="'/lektion05'" id="l5">
         <div id="l5w">
       	<span id="l5a">Vorfahrt &</span>
-      	<span id="l5b">Verkehrsregelungen</span>
+      	<span id="l5b">Verkehrs-</span>
+      	<span id="l5c">regelungen</span>
         </div>     
       </router-link>  
      
@@ -125,13 +126,14 @@
 		justify-content center
 		flex-direction column
 		align-items center
-
+		word-break keep-all
+		white-space nowrap
 		transition .3s
 		overflow hidden
 		//padding .5rem
 		min-height 40vh
 		//min-width 28vw
-		border-bottom-left-radius 1.25rem
+		border-bottom-left-radius 1.75rem
 		border-bottom-right-radius .25rem
 		border-top-right-radius .5rem
 
@@ -155,6 +157,7 @@
 	letter-spacing -3px
 	font-family $fontA
 	//font-weight 300
+	background-image url(/img/flowers.png)
 
 #l1:after
 	content '01'
@@ -177,12 +180,12 @@
 
 #l1a
 	transform rotate(3 deg)
-	font-size 8.25vh
+	font-size 7.8vh
 
 #l1b
 	background #dd254d
 	line-height 1.6 !important
-	font-size 5.25vh
+	font-size 5.3vh
 
 // -------------------------------------------
 
@@ -191,7 +194,8 @@
 	background #212b29
 	color #79f2d5
 	font-weight bolder
-	
+	background-image url(/img/l02.png)
+	background-size cover
 
 #l2:after
 	content '02'
@@ -216,7 +220,7 @@
 	margin-bottom -2rem
 	text-decoration underline
 	font-weight 300
-	font-size 9vh
+	font-size 8.8vh
 
 #l2b
 
@@ -242,6 +246,7 @@
 	padding .5rem
 	background $accentColor
 	color #00495a
+
 	
 	font-size 2rem
 	text-shadow none
@@ -256,11 +261,10 @@
 
 
 #l3a
-
 	text-transform uppercase
 	font-family $fontA 
 	color #eee
-	font-size 7vh
+	font-size 7.2vh
 	margin-bottom -.5rem
 	transform rotate(5deg)
 
@@ -370,14 +374,24 @@
 	margin-bottom 2rem
 	transform rotate(-3deg)
 	font-family $fontB
-	text-shadow 3px 2px 7px #aaa
+	text-shadow 3px 4px 2px #555
+	font-size 10.3vh
 
-#l5b
+#l5b, #l5c
 	font-family $fontA
 	background #74229e
-	padding .25rem
-	color #f2c04b
-	border 1px dashed #111
+	font-weight 300
+	text-transform uppercase
+	font-style italic
+	padding .25rem 0
+	color #f0c5c5
+	border 3px dashed #f0c5c5
+	font-size 9.4vh
+	letter-spacing -.2rem
+	margin .3rem
+
+#l5c
+	font-size 7.5vh
 
 // -------------------------------------------
 
