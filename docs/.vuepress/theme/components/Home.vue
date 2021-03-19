@@ -1,6 +1,6 @@
 <template>
   <main
-    class="home"
+    class="home" id="inhalt"
     :aria-labelledby="data.heroText !== null ? 'main-title' : null"
   >
     <div id="lpCover">
@@ -9,19 +9,6 @@
 
     </div>
 
-    <div
-      v-if="data.features && data.features.length"
-      class="features"
-    >
-      <div
-        v-for="(feature, index) in data.features"
-        :key="index"
-        class="feature"
-      >
-        <h2>{{ feature.title }}</h2>
-        <p>{{ feature.details }}</p>
-      </div>
-    </div>
 
     <Content class="theme-default-content custom" />
 

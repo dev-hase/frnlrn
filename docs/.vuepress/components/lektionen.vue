@@ -42,16 +42,20 @@
      
       <router-link :to="'/lektion06'" id="l6">
         <div id="l6w">
-      	<span id="l6a">Verkehrszeichen &</span>
-      	<span id="l6b">Verkehrseinrichtungen</span>
-      	<span id="l6c">+ Bahnübergänge</span>
+      	<span id="l6a">Verkehrs-</span>
+      	<span id="l6b">zeichen &</span>
+      	<span id="l6c">Verkehrs-</span>
+      	<span id="l6d">einrichtungen</span>
+      	<span id="l6e">sowie</span>
+      	<span id="l6f">Bahnübergänge</span>
         </div>   
       </router-link>  
      
       <router-link :to="'/lektion07'" id="l7">
         <div id="l7w">
-      	<span id="l7a">Andere Teilnehmer</span>
-      	<span id="l7b">im Straßenverkehr</span>
+      	<span id="l7a">Andere</span>
+      	<span id="l7b">Teilnehmer</span>
+      	<span id="l7c">im Straßenverkehr</span>
         </div>  
       </router-link>  
      
@@ -59,7 +63,8 @@
         <div id="l8w">
       	<span id="l8a">Geschwindigkeit,</span>
       	<span id="l8b">Abstand &</span>
-      	<span id="l8c">umweltschonende Fahrweise</span>
+      	<span id="l8c">umweltschonende</span>
+      	<span id="l8d">Fahrweise</span>
         </div>   
       </router-link>  
      
@@ -136,6 +141,8 @@
 		border-bottom-left-radius 1.75rem
 		border-bottom-right-radius .25rem
 		border-top-right-radius .5rem
+		border 3px solid lighten($accentColor, 30%)
+		//box-shadow 1px 1px 4px #777
 
 		font-size 3.25em
 
@@ -281,9 +288,11 @@
 #l3a
 	text-transform uppercase
 	font-family $fontA 
-	color #eee
+	color $primaryColor
+	background #431d54
 	margin-left 1.5rem
 	margin-bottom -.5rem
+	padding 0 1rem
 	transform rotate(5deg)
 
 	@media (orientation: portrait)
@@ -294,12 +303,11 @@
 #l3b, #l3c
 
 	text-decoration none
-	color #bbb
+	color #ddd
 	font-family $fontB
 
-	background #444
 	padding .5rem
-	margin -.52rem
+	margin-left .52rem
 
 
 	@media (orientation: portrait)
@@ -307,8 +315,12 @@
 	@media (orientation: landscape)
 		font-size 12vh 
 
+#l3b
+	margin-top 1.3rem
+
 #l3c
 	font-size 8vh
+	margin-top -1.75rem
 
 	@media (orientation: portrait)
 		font-size 6vh
@@ -467,9 +479,9 @@
 #l6
 	position relative
 	background #212b29
-	color #79f2d5
+	color #cfe8e6
 	font-weight bolder
-	text-shadow 3px 3px 5px #333
+	background-image url(/img/l06.jpg)
 
 #l6:after
 	content '06'
@@ -488,17 +500,63 @@
 	display flex
 	justify-content center
 	flex-direction column
+	align-items center
 	transform rotate(3deg)
 
 #l6a
-
-	margin-bottom 2rem
-	text-decoration underline
-
+	background #888
+	margin-bottom -.5rem
+	font-family $fontA
+	text-transform uppercase
+	@media (orientation: portrait)
+		font-size 3vh
+	@media (orientation: landscape)
+		font-size 4vh 
 #l6b
+	font-family $fontC
+	@media (orientation: portrait)
+		font-size 8vh
+	@media (orientation: landscape)
+		font-size 12vh 
 
-	text-decoration none
-	color #e53512
+#l6c
+	background #888
+
+	font-family $fontA
+	text-transform uppercase
+	@media (orientation: portrait)
+		font-size 3vh
+	@media (orientation: landscape)
+		font-size 4vh 
+#l6d
+	font-family $fontC
+	@media (orientation: portrait)
+		font-size 6vh
+	@media (orientation: landscape)
+		font-size 9vh 
+#l6e
+	background #888
+	font-family $fontA
+	text-transform uppercase
+	transform rotate(-3deg)
+	@media (orientation: portrait)
+		font-size 1.6vh
+	@media (orientation: landscape)
+		font-size 2vh 
+#l6f
+
+	color #ffb700
+	z-index 3
+	font-family $fontA
+	background #1a1a40
+	letter-spacing -.1rem
+	text-transform uppercase
+	transform rotate(-3deg)
+	padding 0 .4rem
+	@media (orientation: portrait)
+		font-size 3vh
+	@media (orientation: landscape)
+		font-size 5.3vh 
 
 // -------------------------------------------
 
@@ -530,14 +588,42 @@
 	transform rotate(3deg)
 
 #l7a
-
-	margin-bottom 2rem
+	font-family $fontC
+	text-transform uppercase
+	margin-bottom -.5rem
 	text-decoration underline
+	letter-spacing .5rem
+	color #1aed95
+	@media (orientation: portrait)
+		font-size 9vh
+	@media (orientation: landscape)
+		font-size 14vh 
 
 #l7b
-
+	font-family $fontB
 	text-decoration none
-	color #e53512
+	color #d11359
+	@media (orientation: portrait)
+		font-size 7.1vh
+	@media (orientation: landscape)
+		font-size 11.5vh 
+
+	transform rotate(-3deg)
+
+#l7c
+	font-family $fontA
+	text-decoration none
+	color #222
+	margin-top -.75rem
+	transform rotate(-3deg)
+	background #d11359
+	text-shadow none
+	padding .1rem .5rem
+	margin-left .5rem
+	@media (orientation: portrait)
+		font-size 2.8vh
+	@media (orientation: landscape)
+		font-size 4.8vh 
 
 // -------------------------------------------
 
@@ -566,17 +652,54 @@
 	display flex
 	justify-content center
 	flex-direction column
-	transform rotate(3deg)
+	//transform rotate(3deg)
 
 #l8a
-
-	margin-bottom 2rem
+	color #fdff6e
+	margin-top 2rem
+	margin-left 1rem
+	font-style italic
 	text-decoration underline
+	font-family $fontC
+	@media (orientation: portrait)
+		font-size 4.4vh
+	@media (orientation: landscape)
+		font-size 6.8vh
 
 #l8b
-
 	text-decoration none
-	color #e53512
+	color #6efff5
+	margin-top 1.4rem
+	margin-bottom 1.5rem
+	@media (orientation: portrait)
+		font-size 7.6vh
+	@media (orientation: landscape)
+		font-size 11.5vh
+
+#l8c
+	color #6eff97
+	letter-spacing -.1rem
+	margin-left .5rem
+	margin-bottom -1.5rem
+	text-transform uppercase
+	font-family $fontA
+	background #444
+	padding .4rem
+	transform rotate(1deg)
+	@media (orientation: portrait)
+		font-size 2.9vh
+	@media (orientation: landscape)
+		font-size 4.5vh
+
+#l8d
+	color #6eff97
+	font-family $fontC
+	text-decoration none
+	z-index 3
+	@media (orientation: portrait)
+		font-size 7.8vh
+	@media (orientation: landscape)
+		font-size 11.5vh
 
 // -------------------------------------------
 
