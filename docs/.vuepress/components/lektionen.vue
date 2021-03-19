@@ -159,6 +159,7 @@
 	//font-weight 300
 	background-image url(/img/flowers.png)
 
+
 #l1:after
 	content '01'
 	top 0
@@ -180,12 +181,19 @@
 
 #l1a
 	transform rotate(3 deg)
-	font-size 7.8vh
+	
+	@media (orientation: portrait)
+		font-size 5.7vh
+	@media (orientation: landscape)
+		font-size 8.4vh 
 
 #l1b
 	background #dd254d
 	line-height 1.6 !important
-	font-size 5.3vh
+	@media (orientation: portrait)
+		font-size 4vh
+	@media (orientation: landscape)
+		font-size 5.8vh
 
 // -------------------------------------------
 
@@ -220,23 +228,33 @@
 	margin-bottom -2rem
 	text-decoration underline
 	font-weight 300
-	font-size 8.8vh
+
+	@media (orientation: portrait)
+		font-size 6vh
+	@media (orientation: landscape)
+		font-size 8.8vh 
 
 #l2b
 
 	text-decoration none
 	color #e53512
 	text-shadow 3px 4px 5px #333
-	font-size 14vh
+
+	@media (orientation: portrait)
+		font-size 10vh
+	@media (orientation: landscape)
+		font-size 14vh 
 
 // -------------------------------------------
 
 #l3
 	position relative
 	background #2c7761
-
+	
 	font-weight bolder
 	text-shadow 3px 3px 5px #333
+	background-image url(/img/l03.jpg)
+
 
 #l3:after
 	content '03'
@@ -264,29 +282,46 @@
 	text-transform uppercase
 	font-family $fontA 
 	color #eee
-	font-size 7.2vh
+	margin-left 1.5rem
 	margin-bottom -.5rem
 	transform rotate(5deg)
+
+	@media (orientation: portrait)
+		font-size 5.1vh
+	@media (orientation: landscape)
+		font-size 7.2vh
 
 #l3b, #l3c
 
 	text-decoration none
-	color #aaa
+	color #bbb
 	font-family $fontB
-	font-size 12vh
-	background #333
+
+	background #444
 	padding .5rem
 	margin -.52rem
 
+
+	@media (orientation: portrait)
+		font-size 9vh
+	@media (orientation: landscape)
+		font-size 12vh 
+
 #l3c
 	font-size 8vh
+
+	@media (orientation: portrait)
+		font-size 6vh
+	@media (orientation: landscape)
+		font-size 8vh 
 
 // -------------------------------------------
 
 #l4
 	position relative
 	background #e2cc5d
-
+	background-image url(/img/l04.jpg)
+	background-size cover
 	color #79f2d5
 	font-weight bolder
 	
@@ -322,25 +357,47 @@
 	letter-spacing .1rem
 
 #l4a
-	font-size 11.5vh
+
+	@media (orientation: portrait)
+		font-size 8vh
+	@media (orientation: landscape)
+		font-size 11.5vh 
+
 
 #l4b
-	font-size 10.75vh
+
 	margin-top -2rem
+	@media (orientation: portrait)
+		font-size 7.7vh
+	@media (orientation: landscape)
+		font-size 10.75vh 
+
 
 #l4c
-	font-size 14.75vh
+
 	margin-top -3rem
+	@media (orientation: portrait)
+		font-size 10.5vh
+	@media (orientation: landscape)
+		font-size 14.75vh 
+
+
 #l4d
 
 	text-decoration none
-	color #e2cc5d
+	color #ffe83f
 	text-shadow 3px 3px 5px #333
 	margin-bottom 2rem
-	font-size 6vh
+
 	background #701358
 	padding .5rem .25rem
 	transform rotate(-4.5deg)
+
+	@media (orientation: portrait)
+		font-size 4vh
+	@media (orientation: landscape)
+		font-size 6vh 
+
 
 // -------------------------------------------
 
@@ -349,7 +406,7 @@
 	background #1e8976
 	color #79f2d5
 	font-weight bolder
-	
+	background-image url(/img/l05.jpg)
 
 #l5:after
 	content '05'
@@ -375,7 +432,11 @@
 	transform rotate(-3deg)
 	font-family $fontB
 	text-shadow 3px 4px 2px #555
-	font-size 10.3vh
+
+	@media (orientation: portrait)
+		font-size 7vh
+	@media (orientation: landscape)
+		font-size 10.3vh 
 
 #l5b, #l5c
 	font-family $fontA
@@ -386,12 +447,20 @@
 	padding .25rem 0
 	color #f0c5c5
 	border 3px dashed #f0c5c5
-	font-size 9.4vh
+
 	letter-spacing -.2rem
 	margin .3rem
+	@media (orientation: portrait)
+		font-size 7vh
+	@media (orientation: landscape)
+		font-size 9.4vh 
 
 #l5c
-	font-size 7.5vh
+
+	@media (orientation: portrait)
+		font-size 5.5vh
+	@media (orientation: landscape)
+		font-size 7.5vh 
 
 // -------------------------------------------
 
@@ -439,6 +508,7 @@
 	color #79f2d5
 	font-weight bolder
 	text-shadow 3px 3px 5px #333
+	background-image url(/img/l07.jpg)
 
 #l7:after
 	content '07'
@@ -477,6 +547,7 @@
 	color #79f2d5
 	font-weight bolder
 	text-shadow 3px 3px 5px #333
+	background-image url(/img/l08.jpg)
 
 #l8:after
 	content '08'
