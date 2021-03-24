@@ -70,9 +70,11 @@
      
       <router-link :to="'/lektion09'" id="l9">
         <div id="l9w">
-      	<span id="l9a">Verkehrsverhalten</span>
-      	<span id="l9b">...bei Fahrmanövern,</span>
-      	<span id="l9c">Verkehrsbeobachtung</span>
+      	<span id="l9a">Verkehrs-</span>
+      	<span id="l9b">verhalten ...bei</span> 
+      	<span id="l9c">Fahrmanövern,</span>
+      	<span id="l9d">Verkehrs-</span>
+      	<span id="l9e">beobachtung</span>
         </div>  
       </router-link>  
      
@@ -709,6 +711,7 @@
 	color #79f2d5
 	font-weight bolder
 	text-shadow 3px 3px 5px #333
+	background-image url(/img/l09.jpg)
 
 #l9:after
 	content '09'
@@ -727,26 +730,83 @@
 	display flex
 	justify-content center
 	flex-direction column
-	transform rotate(3deg)
+
 
 #l9a
+	color #ff6a67
 
-	margin-bottom 2rem
-	text-decoration underline
+	@media (orientation: portrait)
+		font-size 4.3vh
+	@media (orientation: landscape)
+		font-size 6vh
+		margin-top 2rem
 
 #l9b
+	text-align right
+	color #ff6a67
 
-	text-decoration none
-	color #e53512
+	transform rotate(1deg)
+	margin-top -.75rem
+	@media (orientation: portrait)
+		font-size 4.3vh
+	@media (orientation: landscape)
+		font-size 6vh
+
+#l9c
+	color #67ff7b
+	font-style italic
+	font-family $fontC
+	letter-spacing .2rem
+	text-decoration overline
+	background #2e1c36
+	opacity .75
+
+	margin-top 2.25rem
+	margin-bottom 2.5rem
+	transform rotate(-2deg) skewX(-10deg)
+	@media (orientation: portrait)
+		font-size 4.5vh
+	@media (orientation: landscape)
+		font-size 6.7vh
+
+#l9d
+	color #fdff67
+	text-align center
+	background darken(#6bad60, 40%)
+	border-radius 1rem
+	margin-bottom -.2rem
+	font-family $fontC
+	text-transform lowercase
+	transform skewX(5deg)
+	@media (orientation: portrait)
+		font-size 3.5vh
+	@media (orientation: landscape)
+		font-size 4.5vh
+#l9e
+	color #fdff67
+	padding 1rem
+	background darken(#6bad60, 40%)
+	border-radius 1rem
+	text-transform uppercase
+	text-align center
+	transform skewX(-9deg)
+	font-family $fontC
+	@media (orientation: portrait)
+		font-size 4.5vh
+	@media (orientation: landscape)
+		font-size 6.5vh
+		margin-bottom 2rem
+
 
 // -------------------------------------------
 
 #l10
 	position relative
 	background #212b29
-	color #79f2d5
+	
 	font-weight bolder
 	text-shadow 3px 3px 5px #333
+	background-image url(/img/l10.jpg)
 
 #l10:after
 	content '10'
@@ -768,23 +828,37 @@
 	transform rotate(3deg)
 
 #l10a
-
+	color lighten(#58002e, 22%)
 	margin-bottom 2rem
 	text-decoration underline
+	@media (orientation: portrait)
+		font-size 7.25vh
+	@media (orientation: landscape)
+		font-size 10.5vh
+		margin-bottom 2rem
 
 #l10b
-
+	color lighten(#58002e, 30%)
 	text-decoration none
-	color #e53512
+	font-family $fontC
+	letter-spacing .2rem
+	margin-top -2rem
+	@media (orientation: portrait)
+		font-size 8.7vh
+	@media (orientation: landscape)
+		font-size 11.5vh
+		margin-bottom 2rem
 
 // -------------------------------------------
 
 #l11
 	position relative
-	background #212b29
-	color #79f2d5
+	background #bbb
+	color #444
 	font-weight bolder
-	text-shadow 3px 3px 5px #333
+	font-size 2vh
+	text-align center
+	//text-shadow 3px 3px 5px #333
 
 #l11:after
 	content '11'
@@ -797,7 +871,7 @@
 	font-family $fontA 
 	font-size 2rem
 	text-shadow none
-	filter drop-shadow(1px 2px 5px #555)
+	//filter drop-shadow(1px 2px 5px #555)
 
 #l11w
 	display flex
@@ -823,6 +897,7 @@
 	color #79f2d5
 	font-weight bolder
 	text-shadow 3px 3px 5px #333
+	background-image url(/img/l12.jpg)
 
 #l12:after
 	content '12'
@@ -844,13 +919,27 @@
 	transform rotate(3deg)
 
 #l12a
-
+	color lighten(#e2bc03, 22%)
 	margin-bottom 2rem
 	text-decoration underline
+	margin-top 2rem
+	@media (orientation: portrait)
+		font-size 7.25vh
+	@media (orientation: landscape)
+		font-size 10.5vh
+		margin-bottom 2rem
 
 #l12b
-
+	color lighten(#71e203, 30%)
 	text-decoration none
-	color #e53512
+	font-family $fontC
+	letter-spacing .2rem
+	transform rotate(-2deg) skewX(3deg)
+	margin-top -2rem
+	@media (orientation: portrait)
+		font-size 8.7vh
+	@media (orientation: landscape)
+		font-size 18.5vh
+		margin-bottom 2rem
 
 </style>
