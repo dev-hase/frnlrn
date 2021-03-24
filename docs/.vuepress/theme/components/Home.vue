@@ -18,10 +18,7 @@
 
     <section class='linkList'>
       <router-link :to="'/impressum.html'">
-        Impressum
-      </router-link>  
-      <router-link :to="'/datenschutz.html'">
-        Datenschutz
+        Impressum & Datenschutz
       </router-link>  
 
     </section>
