@@ -13,7 +13,8 @@
     data() {
       return {
         options: {
-          paddingTop: '3.6rem'
+          paddingTop: '3.6rem',
+
         },
       }
     },

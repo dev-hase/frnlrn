@@ -11,6 +11,8 @@ export default ({
 
 Vue.use(VueSimpleAlert);
 Vue.use(VueRellax);
-Vue.use(VueFullPage);
 
+if(isClient) {
+    Vue.use(VueFullpage);
+  }
 }
