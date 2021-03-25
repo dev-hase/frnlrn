@@ -1,9 +1,9 @@
 ---
-pageClass: abschnitte
+pageClass: lektion
 sidebar: false
 ---
 
-<fullPage>
+<div class="abschnitte">
 
 <abschnitt>
 
@@ -34,4 +34,5 @@ Orientierung an Leitbildern des Verkehrsverhaltens.
 
 </abschnitt>
 
-</fullPage>
+</div>
+

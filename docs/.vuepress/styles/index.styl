@@ -1,7 +1,6 @@
 @require(landingPage)
 @require(navbarOverrides)
 @require(footer)
-@require(fullpage)
 
 // mixins -------------------------------------------
 
@@ -42,6 +41,29 @@ umrandung()
 
 .theme-default-content:not(.custom) > h1, h2, h3, h4, h5, h6
 	padding-top 8.5rem !important
+
+.abschnitte
+	display block
+	overflow scroll
+	scroll-snap-type mandatory
+	scroll-snap-points-y repeat(100vh)
+	scroll-snap-type y mandatory
+	max-height calc(100vh - 4rem)
+	margin-top 3.6rem !important
+	margin-bottom -3.6rem !important
+	scroll-behavior smooth
+
+.abschnitte .theme-default-content
+	max-width 100vw 
+
+.lektion .theme-default-content
+	max-width 100vw
+
+	padding 0 !important
+	margin 0 !important
+	box-sizing border-box
+
+
 
  // spam potection
 
@@ -138,8 +160,7 @@ em:after
 	height 102%
 	//background: linear-gradient(38deg, rgba(255,255,255,0) 43%, rgba(247,237,56,0.3) 100%);
 
-.abschnitte .theme-default-content
-	max-width 100vw 
+
 
 
 .theme-default-content
