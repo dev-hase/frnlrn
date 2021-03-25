@@ -8,6 +8,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "fullpage.js": "^3.1.0",
     "vue-fullpage.js": "^0.1.7",
     "vue-rellax": "^0.2.0",
     "vue-simple-alert": "^1.1.1"
