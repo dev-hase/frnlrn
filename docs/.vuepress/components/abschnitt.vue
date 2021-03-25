@@ -1,6 +1,6 @@
 <template>
 
-  <section class="abschnitt">
+  <section class="abschnitt item">
     <slot />
   </section>
 
@@ -22,11 +22,6 @@ export default {
 
 <style lang="stylus" scoped>
 
-
-.abschnitt
-    scroll-snap-align start
-    height calc(100vh - 3.6rem)
-    padding 2rem
 
 
 </style>

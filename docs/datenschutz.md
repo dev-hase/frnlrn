@@ -1,12 +1,6 @@
 ---
-sidebar: false
+sidebar: auto
 ---
-
-# Impressum
-
-## Haftung für Inhalte
-
-Die Inhalte dieser Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte wird jedoch keine Gewähr übernommen. Nach §§ 8 bis 10 TMG besteht keine Verpflichtung, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden diese Inhalte umgehend entfernt.
 
 # Datenschutz
 
@@ -23,3 +17,5 @@ Die Inhalte dieser Seiten wurden mit größter Sorgfalt erstellt. Für die Richt
 - Grundsätzlich wird keine Haftung für die Inhalte extern verlinkter Seiten übernommen.
 
 :::
+
+<fussnote />
