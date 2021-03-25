@@ -1,6 +1,9 @@
 import VueSimpleAlert from "vue-simple-alert";
 import VueRellax from 'vue-rellax';
 
+import VueFullPage from 'vue-fullpage.js'
+
+
 export default ({
   Vue, // the version of Vue being used in the VuePress app
   options, // the options for the root Vue instance
@@ -10,5 +13,6 @@ export default ({
 
 Vue.use(VueSimpleAlert);
 Vue.use(VueRellax);
+Vue.use(VueFullPage);
 
 }

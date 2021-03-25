@@ -1,8 +1,16 @@
+---
+sidebar: false
+---
+
+<slides>
+
 # Persönliche Voraussetzungen
 
 Körperliche Fähigkeiten
 Sehfähigkeit – Sehtest
 Bedeutung von Gesundheit und Fitness
+
+</slides>
 
 ---
 
