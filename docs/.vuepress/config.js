@@ -35,7 +35,8 @@ module.exports = {
   ],
 
   themeConfig: {
-  
+    nextLinks: false,
+    prevLinks: false,
   	displayAllHeaders: true,
   	logo: '/img/logo.png',
   	nav: [

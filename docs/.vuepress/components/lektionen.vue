@@ -1,17 +1,17 @@
 <template>
     <div id="lektionen">
      
-      <router-link :to="'/lektion01'" id="l1">
-      	<div id="l1w">
-      	<span id="l1a">Persönliche</span>
-      	<span id="l1b">Voraussetzungen</span>
+      <router-link :to="'/lektion01'" class="l1">
+      	<div class="l1w">
+      	<span class="l1a">Persönliche</span>
+      	<span class="l1b">Voraussetzungen</span>
         </div>
       </router-link>  
      
-      <router-link :to="'/lektion02'" id="l2">
-      	<div id="l2w">
-        <span id="l2a">Risikofaktor</span> 
-        <span id="l2b">Mensch</span>
+      <router-link :to="'/lektion02'" class="l2">
+      	<div class="l2w">
+        <span class="l2a">Risikofaktor</span> 
+        <span class="l2b">Mensch</span>
         </div>
       </router-link>  
      
@@ -110,7 +110,7 @@
 
 </script>
 
-<style lang="stylus" scoped>
+<style lang="stylus">
 
 #lektionen
 
@@ -155,104 +155,6 @@
 		filter brightness(130%)
 		transition .2s
 
-// -------------------------------------------
-
-#l1
-	position relative
-	background #492742
-	color #eddd63
-	font-weight bolder
-	text-shadow 3px 3px 5px #333
-	letter-spacing -3px
-	font-family $fontA
-	//font-weight 300
-	background-image url(/img/flowers.png)
-
-
-#l1:after
-	content '01'
-	top 0
-	left 0
-	position absolute
-	padding .5rem
-	background $accentColor
-	color #00495a
-	font-family $fontA 
-	font-size 2rem
-	text-shadow none
-	filter drop-shadow(1px 2px 5px #555)
-
-#l1w
-	display flex
-	justify-content center
-	flex-direction column
-	transform rotate(-2deg)
-
-#l1a
-	transform rotate(3 deg)
-	
-	@media (orientation: portrait)
-		font-size 5.7vh
-	@media (orientation: landscape)
-		font-size 8.4vh 
-
-#l1b
-	background #dd254d
-	line-height 1.6 !important
-	@media (orientation: portrait)
-		font-size 4vh
-	@media (orientation: landscape)
-		font-size 5.8vh
-
-// -------------------------------------------
-
-#l2
-	position relative
-	background #212b29
-	color #79f2d5
-	font-weight bolder
-	background-image url(/img/l02.jpg)
-	background-size cover
-
-#l2:after
-	content '02'
-	top 0
-	left 0
-	position absolute
-	padding .5rem
-	background $accentColor
-	color #00495a
-	font-family $fontA 
-	font-size 2rem
-	text-shadow none
-	filter drop-shadow(1px 2px 5px #555)
-
-#l2w
-	display flex
-	justify-content center
-	flex-direction column
-
-#l2a
-
-	margin-bottom -2rem
-	text-decoration underline
-	font-weight 300
-
-	@media (orientation: portrait)
-		font-size 6vh
-	@media (orientation: landscape)
-		font-size 8.8vh 
-
-#l2b
-
-	text-decoration none
-	color #e53512
-	text-shadow 3px 4px 5px #333
-
-	@media (orientation: portrait)
-		font-size 10vh
-	@media (orientation: landscape)
-		font-size 14vh 
 
 // -------------------------------------------
 
