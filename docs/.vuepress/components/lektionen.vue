@@ -15,11 +15,11 @@
         </div>
       </router-link>  
      
-      <router-link :to="'/lektion03'" id="l3">
-		<div id="l3w">
-      	<span id="l3a">Rechtliche</span>
-      	<span id="l3b">Rahmen-</span>
-      	<span id="l3c">bedingungen</span>
+      <router-link :to="'/lektion03'" class="l3">
+		<div class="l3w">
+      	<span class="l3a">Rechtliche</span>
+      	<span class="l3b">Rahmen-</span>
+      	<span class="l3c">bedingungen</span>
         </div>
       </router-link>  
      
@@ -156,80 +156,7 @@
 		transition .2s
 
 
-// -------------------------------------------
 
-#l3
-	position relative
-	background #2c7761
-	
-	font-weight bolder
-	text-shadow 3px 3px 5px #333
-	background-image url(/img/l03.jpg)
-
-
-#l3:after
-	content '03'
-	top 0
-	left 0
-	position absolute
-	padding .5rem
-	background $accentColor
-	color #00495a
-
-	
-	font-size 2rem
-	text-shadow none
-	filter drop-shadow(1px 2px 5px #555)
-
-#l3w
-	display flex
-	justify-content center
-	flex-direction column
-	transform rotate(-6deg)
-	padding .5rem
-
-
-#l3a
-	text-transform uppercase
-	font-family $fontA 
-	color $primaryColor
-	background #431d54
-	margin-left 1.5rem
-	margin-bottom -.5rem
-	padding 0 1rem
-	transform rotate(5deg)
-
-	@media (orientation: portrait)
-		font-size 5.1vh
-	@media (orientation: landscape)
-		font-size 7.2vh
-
-#l3b, #l3c
-
-	text-decoration none
-	color #ddd
-	font-family $fontB
-
-	padding .5rem
-	margin-left .52rem
-
-
-	@media (orientation: portrait)
-		font-size 9vh
-	@media (orientation: landscape)
-		font-size 12vh 
-
-#l3b
-	margin-top 1.3rem
-
-#l3c
-	font-size 8vh
-	margin-top -1.75rem
-
-	@media (orientation: portrait)
-		font-size 6vh
-	@media (orientation: landscape)
-		font-size 8vh 
 
 // -------------------------------------------
 

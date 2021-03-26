@@ -29,7 +29,7 @@ export default {
 	border-top-right-radius .25rem
 	border-bottom-right-radius .75rem
 	border-top-left-radius .5rem
-	border 3px solid #00495a
+	border 3px solid #444
 	background-image url(/img/paper.png)
 
 	h2
