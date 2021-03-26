@@ -1,6 +1,7 @@
 <template>
 
-  <div :class="'item ' + itemSize ">
+
+  <div :class="'item ' + itemSize + ' ' + isClass">
     <slot />
   </div>
 
@@ -9,9 +10,13 @@
 
 <script>  
 export default {
-    props: ["itemSize"],
+    props: ["itemSize", "itemClass"],
 
     computed: {
+        isClass: function () {
+            if (this.itemClass) return this.itemClass
+            else return ''
+       },
         
     }    
 
@@ -23,17 +28,32 @@ export default {
 <style lang="stylus">
 
 .item
+	display inline-block
 	padding 1rem
 	border-radius .25rem
-	background-color white
+	background-color #444
+	color #efefef
 	border-top-right-radius .25rem
 	border-bottom-right-radius .75rem
 	border-top-left-radius .5rem
 	border 3px solid #444
-	background-image url(/img/paper.png)
+	
 
 	h2
-		//font-family $fontC
+		font-family $fontC
+		color #efefef
+		font-size 7vh
+		text-shadow 2px 2px 3px #333
+
+	ul li 
+		color #333
+		background-color #efefef
+		opacity .75
+		display inline-block
+		padding .2rem .5rem
+		border-radius .2rem
+		font-weight bolder
+		text-transform uppercase
 
 .i-xl
 	grid-column-end span 9

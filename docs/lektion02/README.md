@@ -16,9 +16,9 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-l">
+<item itemSize="i-l" itemClass="itemAggressionen">
 
-## Aggression
+## Aggressionen
 
 - Reaktion auf aggressives Fahren
 - Lernen, wie man seinen Ärger kontrolliert
@@ -26,7 +26,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-l">
+<item itemSize="i-l" itemClass="itemStress">
 
 ## Stress
 
