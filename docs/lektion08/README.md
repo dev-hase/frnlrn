@@ -1,38 +1,79 @@
+---
+pageClass: l-08
+sidebar: false
+---
+
 # Geschwindigkeit, Abstand und umweltschonende Fahrweise
 
-Bedeutung der Geschwindigkeit
-situationsangepasste Geschwindigkeit
-Zusammenhänge zwischen Geschwindigkeit, Abstand und Anhalteweg
-Einschätzung des Anhalteweges bei verschiedenen Geschwindigkeiten
-Gewöhnung an ausreichende Sicherheitsabstände
-Erkenntnis der Gefahren von zu hohen Geschwindigkeiten
-Ständige Kontrolle der Geschwindigkeit durch Anpassung an Verkehrsverhältnisse, Straßenverhältnisse, Witterungs -und Sichtverhältnisse
-Kenntnisse und Akzeptanz der Geschwindigkeitsregelungen
-Kenntnis der Zusammenhänge zwischen Geschwindigkeit und Schadstoffemissionen
-Wahl umweltschonender Geschwindigkeiten
-Realistische Selbsteinschätzung des eigenen Geschwindigkeitsverhaltens
-Wissen um das Risiko von Geschwindigkeitsrausch und Geschwindigkeitsgewohnheiten
+<auswahl>
 
----
+<item itemSize="i-l" class="l8 slabT">	
 
-Vorausschauendes Verhalten
+<div class="l8w">
+      	<span class="l8a">Geschwindigkeit,</span>
+      	<span class="l8b">Abstand &</span>
+      	<span class="l8c">umweltschonende</span>
+      	<span class="l8d">Fahrweise</span>
+</div> 
 
----
+</item>
 
-Sicherheitsabstände
+<item itemSize="i-xl" itemClass="">  
 
----
+## Bedeutung der Geschwindigkeit
 
-Wahl der Geschwindigkeit in Abhängigkeit von Straße, Verkehr, Witterungs- und Sichtverhältnissen
+- situationsangepasste Geschwindigkeit
+- Zusammenhänge zwischen Geschwindigkeit, Abstand und Anhalteweg
+- Einschätzung des Anhalteweges bei verschiedenen Geschwindigkeiten
+- Gewöhnung an ausreichende Sicherheitsabstände
+- Erkenntnis der Gefahren von zu hohen Geschwindigkeiten
+- Ständige Kontrolle der Geschwindigkeit durch Anpassung an Verkehrsverhältnisse, Straßenverhältnisse, Witterungs -und Sichtverhältnisse
+- Kenntnisse und Akzeptanz der Geschwindigkeitsregelungen
+- Kenntnis der Zusammenhänge zwischen Geschwindigkeit und  Schadstoffemissionen
+- Wahl umweltschonender Geschwindigkeiten
+- Realistische Selbsteinschätzung des eigenen Geschwindigkeitsverhaltens
+- Wissen um das Risiko von Geschwindigkeitsrausch und Geschwindigkeitsgewohnheiten
 
----
+</item>
 
-Lärmschutz
+<item itemSize="i-m" itemClass="">
 
----
+## Vorausschauendes Verhalten
 
-Geschwindigkeitsvorschriften
+</item>
 
----
+<item itemSize="i-m" itemClass="">
 
-Warnzeichen.
+## Sicherheitsabstände
+
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Wahl der Geschwindigkeit 
+
+- in Abhängigkeit von Straße, 
+- Verkehr, 
+- Witterungs- und Sichtverhältnissen
+
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Lärmschutz
+
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Geschwindigkeitsvorschriften
+
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Warnzeichen.
+
+</item>
+
+</auswahl>

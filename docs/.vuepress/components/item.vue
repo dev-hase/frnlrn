@@ -44,12 +44,15 @@ export default {
 		color #efefef
 		font-size 7vh
 		text-shadow 2px 2px 3px #333
+		@media (max-width $MQMobile)
+			font-size 4.75vh
 
 	ul li 
 		color #333
 		background-color #efefef
-		opacity .75
+		opacity .95
 		display inline-block
+		min-width 50%
 		padding .2rem .5rem
 		border-radius .2rem
 		font-weight bolder
