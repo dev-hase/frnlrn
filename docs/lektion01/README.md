@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-l" class="l1 slabT">	
+<item itemSize="i-sm" class="l1 slabT">	
 
    <div class="l1w">
       	<span class="l1a">Persönliche</span>
@@ -16,16 +16,16 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m">
+<item itemSize="i-sm" class="itemFaehigkeiten">
 
 ## Körperliche Fähigkeiten
 
-Sehfähigkeit – Sehtest
-Bedeutung von Gesundheit und Fitness
+- Sehfähigkeit – Sehtest
+- Bedeutung von Gesundheit und Fitness
 
 </item>
 
-<item itemSize="i-xl">
+<item itemSize="i-l" class="itemEinschraenkungen">
 
 ## Einschränkungen der körperlichen Fähigkeiten
 
@@ -37,7 +37,7 @@ Bedeutung von Gesundheit und Fitness
 
 </item>
 
-<item itemSize="i-l">
+<item itemSize="i-m" class="itemVorraussetzungen">
 
 ## Psychische und soziale Voraussetzungen
 

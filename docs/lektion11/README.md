@@ -1,39 +1,88 @@
+---
+pageClass: l-11
+sidebar: false
+---
+
 # Verhalten in besonderen Situationen, Folgen von Verstößen gegen Verkehrsvorschriften
 
-Benutzung von Beleuchtungseinrichtungen
+<auswahl>
 
----
+<item itemSize="i-l" class="l11 slabT">	
 
-Verhalten gegenüber Sonderfahrzeugen
-Blaues und gelbes Blinklicht
-Sonderrechte
+<div class="l11w">
+      	<span class="l11a">Verhalten in</span>
+      	<span class="l11b">besonderen Situationen,</span>
+      	<span class="l11c">Folgen von</span>
+      	<span class="l11d">Verstößen gegen</span>
+      	<span class="l11e">Verkehrsvorschriften</span>
+</div>  
 
----
+</item>
 
-Verhalten nach Verkehrsunfall
-Absichern und Hilfeleistung für Verletzte
-Verpflichtungen
+<item itemSize="i-m" itemClass="">
 
----
+## Benutzung von Beleuchtungseinrichtungen
 
-Ahndung von Fehlverhalten
-Verwarnung, Bußgeld, Fahrverbot, Strafe
+</item>
 
----
+<item itemSize="i-m" itemClass="">
 
-Fahreignungsregister
-Fahreignungs-Bewertungssystem
+## Verhalten gegenüber Sonderfahrzeugen
 
----
+- Blaues und gelbes Blinklicht
+- Sonderrechte
 
-Entzug der Fahrerlaubnis
+</item>
 
----
+<item itemSize="i-m" itemClass="">
 
-Verlust des Versicherungsschutzes
-Schadenersatz, Regress
+## Verhalten nach Verkehrsunfall
 
----
+- Absichern und Hilfeleistung für Verletzte
+- Verpflichtungen
 
-Begutachtungsstelle für Fahreignung
-Medizinisch-psychologische Untersuchung.
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Ahndung von Fehlverhalten
+
+- Verwarnung,
+- Bußgeld, 
+- Fahrverbot, 
+- Strafe
+
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Fahreignungsregister
+
+- Fahreignungs-Bewertungssystem
+
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Entzug der Fahrerlaubnis
+
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Verlust des Versicherungsschutzes
+
+- Schadenersatz, 
+- Regress
+
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Begutachtungsstelle für Fahreignung
+
+- Medizinisch-psychologische Untersuchung.
+
+</item>
+
+</auswahl>

@@ -1,30 +1,64 @@
+---
+pageClass: l-12
+sidebar: false
+---
+
 # Lebenslanges Lernen
 
-Besondere Risikofaktoren bei
-Fahranfängern
-Jungen Fahrern
-Älteren Fahrern
+<auswahl>
 
----
+<item itemSize="i-l" class="l12 slabT">	
 
-Hilfen
+<div class="l12w">
+      	<span class="l12a">Lebenslanges</span>
+      	<span class="l12b">Lernen</span>
+</div>  
+
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Besondere Risikofaktoren bei
+
+- Fahranfängern
+- Jungen Fahrern
+- Älteren Fahrern
+
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Hilfen
 insbesondere durch
-Aufbauseminare, besondere Aufbauseminare und verkehrspsychologische Beratungsgespräche (Führerschein auf Probe)
-Fahreignungsseminare (Fahreignungs-Bewertungssystem)
-Erfahrungsaustausch für Fahranfänger
 
----
+- Aufbauseminare, besondere Aufbauseminare und verkehrspsychologische Beratungsgespräche (Führerschein auf Probe)
+- Fahreignungsseminare (Fahreignungs-Bewertungssystem)
+- Erfahrungsaustausch für Fahranfänger
 
-Risiken durch Informations- und Kommunikationsdefizite im Straßenverkehr
+</item>
 
----
+<item itemSize="i-m" itemClass="">
 
-Verkehrssicherheit durch Weiterbildung
+## Risiken durch Informations- und Kommunikationsdefizite im Straßenverkehr
 
----
+</item>
 
-Sicherheitstraining
+<item itemSize="i-m" itemClass="">
 
----
+## Verkehrssicherheit durch Weiterbildung
 
-Kurse zur umweltschonenden Fahrweise.
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Sicherheitstraining
+
+</item>
+
+<item itemSize="i-m" itemClass="">
+
+## Kurse zur umweltschonenden Fahrweise.
+
+</item>
+
+</auswahl>

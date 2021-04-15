@@ -59,21 +59,32 @@ export default {
 		text-transform uppercase
 
 .i-xl
-	grid-column-end span 9
-	grid-row-end span 9
-
+	grid-column-end span 5
+	grid-row-end span 4
+	@media (max-width 1200px)
+		grid-column-end span 4
+		grid-column-end span 4
 
 .i-l
-	grid-column-end span 6
-	grid-row-end span 6
+	grid-column-end span 3
+	grid-row-end span 3
+	@media (max-width 1200px)
+		grid-column-end span 4
+		grid-column-end span 4
 
 .i-m
-	grid-column-end span 3
-	grid-row-end span 5
+	grid-column-end span 2
+	grid-row-end span 2
+	@media (max-width 1200px)
+		grid-column-end span 2
+		grid-column-end span 4
 
 .i-sm
 	grid-column-end span 2
-	grid-row-end span 2
+	grid-row-end span 1
+	@media (max-width 1200px)
+		grid-column-end span 2
+		grid-column-end span 2
 
 
 </style>
