@@ -17,7 +17,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m">
+<item itemSize="i-m" itemClass="itemFuehrenVonKfz">
 
 ## Führen von Kraftfahrzeugen
 
@@ -42,7 +42,7 @@ Erlöschen der Betriebserlaubnis
 </item>
 
 
-<item itemSize="i-l">
+<item itemSize="i-l" itemClass="itemVersicherung">
 
 ## Versicherungen
 
@@ -53,7 +53,7 @@ Rechtsschutz
 </item>
 
 
-<item itemSize="i-xl">
+<item itemSize="i-xl" itemClass="itemPapiere">
 
 ## Fahrzeugpapiere und Führerschein
 
@@ -63,7 +63,7 @@ Nachweis über Abgasuntersuchung
 
 </item>
 
-<item itemSize="i-m">
+<item itemSize="i-m" itemClass="itemInternational">
 
 ## Internationaler Kraftfahrzeugverkehr
 

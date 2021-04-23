@@ -18,7 +18,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-xl" itemClass="">
+<item itemSize="i-xl" itemClass="itemVerkehrswege">
 
 ## Verkehrswege und ihre Bedeutung
 
@@ -38,7 +38,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-l" itemClass="">
+<item itemSize="i-l" itemClass="itemGefahren">
 
 ## Gefahrenwahrnehmung
 

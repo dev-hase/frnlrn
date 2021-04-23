@@ -37,26 +37,35 @@ export default {
 	border-bottom-right-radius .75rem
 	border-top-left-radius .5rem
 	border 3px solid #444
+	min-height 50vh
 	
 
 	h2
 		font-family $fontC
 		color #efefef
 		font-size 7vh
-		text-shadow 2px 2px 3px #333
+		letter-spacing .2rem
+		text-decoration underline
+
+		text-shadow -3px -2px 0 #333, 2px -2px 0 #333, -3px 2px 0 #00495a, 2px 2px 0 #00495a, 3px 2px 7px #00495a
 		@media (max-width $MQMobile)
 			font-size 4.75vh
 
 	ul li 
-		color #333
-		background-color #efefef
-		opacity .95
+
+		color #efefef
+		background-color #00495a
+		opacity .9
 		display inline-block
 		min-width 50%
 		padding .2rem .5rem
 		border-radius .2rem
 		font-weight bolder
 		text-transform uppercase
+		mix-blend-mode luminosity
+		font-size 1.15rem
+
+
 
 .i-xl
 	grid-column-end span 5

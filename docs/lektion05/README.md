@@ -17,7 +17,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m" itemClass="">
+<item itemSize="i-m" itemClass="itemVerhalten">
 
 ## Verhalten
 

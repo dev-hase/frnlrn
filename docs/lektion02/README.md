@@ -37,27 +37,28 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-xl">
+<item itemSize="i-l" itemClass="itemEmotionen">
 
 ## weitere Emotionen
 
-Beeinflussung des Verkehrsverhaltens durch
-, Angst, Fahrfreude, Auffälliges Fahren kann verschiedene Gründe haben, 
-Gefühle können Fahrer positiv oder negativ beeinflussen
-Risiken durch Angst, Panik, Überlegenheitsgefühle
-Lernen, Gefühle zu beherrschen und zu kontrollieren
+- Beeinflussung des Verkehrsverhaltens durch Angst, 
+- Fahrfreude, 
+- Auffälliges Fahren kann verschiedene Gründe haben, 
+- Gefühle können Fahrer positiv oder negativ beeinflussen
+- Risiken durch Angst, Panik, Überlegenheitsgefühle
+- Lernen, Gefühle zu beherrschen und zu kontrollieren
 
 </item>
 
-<item itemSize="i-m">
+<item itemSize="i-m" itemClass="itemSelbstbilder">
 
 ## Selbstbilder
 
-realistische Einschätzung: Über- und Unterschätzung
+- realistische Einschätzung: Über- und Unterschätzung
 
 </item>
 
-<item itemSize="i-m">
+<item itemSize="i-m"  itemClass="itemIdeale">
 
 ## Fahrideale und Fahrerrollen
 

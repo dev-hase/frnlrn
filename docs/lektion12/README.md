@@ -55,7 +55,7 @@ insbesondere durch
 
 </item>
 
-<item itemSize="i-m" itemClass="">
+<item itemSize="i-m" itemClass="itemUmweltschonend">
 
 ## Kurse zur umweltschonenden Fahrweise.
 
