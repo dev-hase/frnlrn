@@ -37,8 +37,10 @@ export default {
 	border-bottom-right-radius .75rem
 	border-top-left-radius .5rem
 	border 3px solid #444
-	min-height 50vh
 	
+	min-height 45vh
+	@media (max-width 800px)
+		min-height 25vh
 
 	h2
 		font-family $fontC
@@ -71,27 +73,23 @@ export default {
 	grid-row-end span 4
 	@media (max-width 1200px)
 		grid-column-end span 4
-		grid-column-end span 4
 
 .i-l
 	grid-column-end span 3
 	grid-row-end span 3
 	@media (max-width 1200px)
 		grid-column-end span 4
-		grid-column-end span 4
 
 .i-m
 	grid-column-end span 2
 	grid-row-end span 2
-	@media (max-width 1200px)
-		grid-column-end span 2
+	@media (min-width 1200px)
 		grid-column-end span 4
 
 .i-sm
 	grid-column-end span 2
 	grid-row-end span 1
 	@media (max-width 1200px)
-		grid-column-end span 2
 		grid-column-end span 2
 
 
