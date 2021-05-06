@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-l" class="l12 slabT">	
+<item itemSize="i-l" class="l12 slabT itemTitle">	
 
 <div class="l12w">
       	<span class="l12a">Lebenslanges</span>

@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-l" class="l8 slabT">	
+<item itemSize="i-l" class="l8 slabT itemTitle">	
 
 <div class="l8w">
       	<span class="l8a">Geschwindigkeit,</span>

@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-l" class="l3 slabT">	
+<item itemSize="i-l" class="l3 slabT itemTitle">	
 
 <div class="l3w">
       	<span class="l3a">Rechtliche</span>
@@ -21,8 +21,8 @@ sidebar: false
 
 ## Führen von Kraftfahrzeugen
 
-Fahrerlaubnisklassen
-Führerschein auf Probe
+- Fahrerlaubnisklassen
+- Führerschein auf Probe
 
 </item>
 
@@ -30,8 +30,8 @@ Führerschein auf Probe
 
 ## Zulassung von Fahrzeugen
 
-zulassungspflichtige und zulassungsfreie Fahrzeuge
-Erlöschen der Betriebserlaubnis
+- zulassungspflichtige und zulassungsfreie Fahrzeuge
+- Erlöschen der Betriebserlaubnis
 
 </item>
 
@@ -46,9 +46,9 @@ Erlöschen der Betriebserlaubnis
 
 ## Versicherungen
 
-Haftpflicht, Teilkasko und Vollkasko
-Insassenunfall
-Rechtsschutz
+- Haftpflicht, Teilkasko und Vollkasko
+- Insassenunfall
+- Rechtsschutz
 
 </item>
 
@@ -57,9 +57,9 @@ Rechtsschutz
 
 ## Fahrzeugpapiere und Führerschein
 
-Fahrzeugbrief, Fahrzeugschein, Betriebserlaubnis, Versicherungsnachweis
-Nachweis über Abgasuntersuchung
-Änderungsabnahmebericht nach § 19 Absatz 3 StVZO
+- Fahrzeugbrief, Fahrzeugschein, Betriebserlaubnis, Versicherungsnachweis
+- Nachweis über Abgasuntersuchung
+- Änderungsabnahmebericht nach § 19 Absatz 3 StVZO
 
 </item>
 

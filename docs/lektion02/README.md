@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-l" class="l2 slabT">	
+<item itemSize="i-sm" class="l2 slabT itemTitle">	
 
 <div class="l2w">
 	<span class="l2a">Risikofaktor</span> 
@@ -37,7 +37,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-l" itemClass="itemEmotionen">
+<item itemSize="i-xl" itemClass="itemEmotionen">
 
 ## weitere Emotionen
 

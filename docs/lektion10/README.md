@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-l" class="l10 slabT">	
+<item itemSize="i-l" class="l10 slabT itemTitle">	
 
 <div class="l10w">
       	<span class="l10a">Ruhender</span>

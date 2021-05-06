@@ -46,7 +46,7 @@ export default {
 		font-size 7vh
 		letter-spacing .2rem
 		text-decoration underline
-
+		mix-blend-mode luminosity
 		text-shadow -3px -2px 0 #333, 2px -2px 0 #333, -3px 2px 0 #00495a, 2px 2px 0 #00495a, 3px 2px 7px #00495a
 		@media (max-width $MQMobile)
 			font-size 4.75vh
@@ -54,8 +54,7 @@ export default {
 	ul li 
 
 		color #efefef
-		background-color #00495a
-		opacity .9
+		background-color #444
 		display inline-block
 		min-width 50%
 		padding .2rem .5rem

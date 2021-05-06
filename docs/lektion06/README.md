@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-l" class="l6 slabT">	 
+<item itemSize="i-l" class="l6 slabT itemTitle">	 
 
 <div class="l6w">
       	<span class="l6a">Verkehrs-</span>

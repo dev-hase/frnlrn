@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-l" class="l5 slabT">	
+<item itemSize="i-l" class="l5 slabT itemTitle">	
 
 <div class="l5w">
       	<span class="l5a">Vorfahrt &</span>

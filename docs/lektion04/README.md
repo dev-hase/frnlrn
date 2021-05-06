@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-l" class="l4 slabT">	
+<item itemSize="i-l" class="l4 slabT itemTitle">	
 
 <div class="l4w">
       	<span class="l4a">Straßen-</span>

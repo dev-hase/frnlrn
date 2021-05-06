@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-l" class="l11 slabT">	
+<item itemSize="i-l" class="l11 slabT itemTitle">	
 
 <div class="l11w">
       	<span class="l11a">Verhalten in</span>
