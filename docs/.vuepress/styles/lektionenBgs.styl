@@ -8,16 +8,25 @@
 	background-image url('/media/01/faehigkeiten.jpg') 
 	background-size cover
 	background-position center
+	h2
+		font-size 8vh !important
 
 .itemEinschraenkungen
 	background-image url('/media/01/einschraenkungen.jpg') 
 	background-size cover
 	background-position center
+	@media (max-width 450px)
+		background-size contain
+		background-repeat no-repeat
+		background-position top right
+		background-color #f0ece9 !important
 
 .itemVorraussetzungen
 	background-image url('/media/01/vorraussetzungen.jpg') 
 	background-size cover
 	background-position center
+	h2
+		font-size 4vh !important
 
 // ------------------ 02
 
@@ -30,11 +39,22 @@
 	background-image url('/media/02/stress.jpg')
 	background-size cover
 	background-position top
+	h2
+		font-size 13vh !important
+	@media (max-width 500px)
+		background-size contain
+		background-repeat no-repeat
+		background-color #4d648e !important
 
 .itemEmotionen
 	background-image url('/media/02/emotionen.jpg')
 	background-size cover
 	background-position top right
+	@media (max-width 630px)
+		background-size contain
+		background-repeat no-repeat
+		background-position bottom right
+		background-color #fefefb !important
 
 .itemSelbstbilder
 	background-image url('/media/02/selbstbilder.jpg')
@@ -48,10 +68,10 @@
 
 	display flex !important
 	justify-content center
-	align-items center
+	align-items flex-end
 
 	h2
-		font-size 4rem !important
+		font-size 7.6vh !important
 		text-align center
 
 // ------------------ 03
@@ -59,6 +79,9 @@
 .itemFuehrenVonKfz
 	background-image url('/media/03/fuehren_von_kfz.jpg') 
 	background-size cover
+	background-position left bottom
+	h2
+		font-size 5.5vh !important
 
 .itemVersicherung
 	background-image url('/media/03/versicherung.jpg')
@@ -68,9 +91,37 @@
 	background-image url('/media/03/papiere.jpg')
 	background-size cover
 
+.itemZulassung
+	background-image url('/media/03/zulassung.jpg')
+	background-size cover
+	background-position top left
+	h2
+		font-size 6vh !important
+
+.itemUntersuchungen
+	background-image url('/media/03/untersuchung.jpg')
+	background-size cover
+	background-position bottom right
+
+	display flex !important
+	justify-content center
+	align-items flex-end
+
+	h2
+		font-size 9vh !important
+		text-align center
+
+
 .itemInternational
 	background-image url('/media/03/international.jpg')
 	background-size cover
+	display flex !important
+	justify-content center
+	align-items center
+
+	h2
+		font-size 6vh !important
+		text-align center
 
 // ------------------ 04
 

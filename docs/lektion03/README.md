@@ -3,11 +3,11 @@ pageClass: l-03
 sidebar: false
 ---
 
-# Rechtliche Rahmenbedingungen
+# Rechtliche Rahmen&shy;bedingungen
 
 <auswahl>
 
-<item itemSize="i-l" class="l3 slabT itemTitle">	
+<item itemSize="i-sm" class="l3 slabT itemTitle">	
 
 <div class="l3w">
       	<span class="l3a">Rechtliche</span>
@@ -17,7 +17,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m" itemClass="itemFuehrenVonKfz">
+<item itemSize="i-sm" itemClass="itemFuehrenVonKfz">
 
 ## Führen von Kraftfahrzeugen
 
@@ -26,7 +26,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m">
+<item itemSize="i-sm itemZulassung">
 
 ## Zulassung von Fahrzeugen
 
@@ -35,9 +35,9 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-l">
+<item itemSize="i-sm itemUntersuchungen">
 
-## Fahrzeuguntersuchungen
+## Fahrzeug&shy;unter&shy;suchungen
 
 </item>
 
@@ -55,7 +55,7 @@ sidebar: false
 
 <item itemSize="i-xl" itemClass="itemPapiere">
 
-## Fahrzeugpapiere und Führerschein
+## Fahrzeug&shy;papiere und Führerschein
 
 - Fahrzeugbrief, Fahrzeugschein, Betriebserlaubnis, Versicherungsnachweis
 - Nachweis über Abgasuntersuchung
@@ -65,7 +65,7 @@ sidebar: false
 
 <item itemSize="i-m" itemClass="itemInternational">
 
-## Internationaler Kraftfahrzeugverkehr
+## Internationaler Kraftfahrzeug&shy;verkehr
 
 </item>
 

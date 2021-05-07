@@ -37,6 +37,7 @@ export default {
 	border-bottom-right-radius .75rem
 	border-top-left-radius .5rem
 	border 3px solid #444
+	box-shadow 1px 2px 2px #222
 	
 	min-height 45vh
 	@media (max-width 800px)
@@ -46,6 +47,7 @@ export default {
 		font-family $fontC
 		color #efefef
 		font-size 7vh
+		opacity .93
 		letter-spacing .2rem
 		text-decoration underline
 		mix-blend-mode luminosity
@@ -84,7 +86,7 @@ export default {
 	grid-column-end span 2
 	grid-row-end span 2
 	@media (min-width 1200px)
-		grid-column-end span 4
+		grid-column-end span 2.5
 
 .i-sm
 	grid-column-end span 2

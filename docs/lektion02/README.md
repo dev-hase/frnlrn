@@ -16,7 +16,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-l" itemClass="itemAggressionen">
+<item itemSize="i-m" itemClass="itemAggressionen">
 
 ## Aggressionen
 
@@ -37,7 +37,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-xl" itemClass="itemEmotionen">
+<item itemSize="i-l" itemClass="itemEmotionen">
 
 ## weitere Emotionen
 
