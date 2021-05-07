@@ -71,16 +71,40 @@ h1, h2, h3, h4, h5, h6
 .coverTop
 
 	position absolute
-	top 3rem
+	top 0
 	left 0
 	display flex
 	justify-content center
-	align-items flex-end
+	align-items flex-start
+	margin-left 10%
+	margin-top 5%
 	box-sizing border-box
+	flex-direction column
 	min-width 100vw
 	min-height 100vh
-	color #efefef
-	font-size 6rem
+	text-shadow -3px -2px 0 #333, 2px -2px 0 #333, -3px 2px 0 #00495a, 2px 2px 0 #00495a, 3px 2px 7px #00495a
+	//mix-blend-mode luminosity
+	h1
+		display block
+		color #ffafcc
+		font-size 22vh
+		font-family $fontC
+		line-height .1rem
+		letter-spacing .75rem
+		opacity .98
+		@media (min-width 800px)
+			font-size 35vh
+	h2
+		display block
+		color #fff
+		font-size 6vh
+		font-family $fontD
+		line-height .1rem
+		transform rotate(-2deg)
+		margin-top -4.2vw
+		margin-left 4.5vw
+		@media (min-width 800px)
+			font-size 11vh
 
 	filter drop-shadow(2px 4px 6px #111)
 

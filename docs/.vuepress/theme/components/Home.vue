@@ -6,7 +6,7 @@
     <div id="lpCover">
       <span v-rellax="{ speed: -9 }" class="coverBg" />
       <span v-rellax="{ speed: -6 }" class="coverMid" />
-
+      <span v-rellax="{ speed: -8 }" class="coverTop"><h1>Wiki</h1><h2>für Fahranfänger</h2></span>
     </div>
 
 
