@@ -34,6 +34,9 @@
 	background-image url('/media/02/aggressionen.jpg') 
 	background-size cover
 	background-position top left
+	@media (max-width 500px)
+		h2
+			font-size 6.5vh !important
 
 .itemStress
 	background-image url('/media/02/stress.jpg')
@@ -44,7 +47,7 @@
 	@media (max-width 500px)
 		background-size contain
 		background-repeat no-repeat
-		background-color #4d648e !important
+		background-color #304f63 !important
 
 .itemEmotionen
 	background-image url('/media/02/emotionen.jpg')
@@ -60,6 +63,9 @@
 	background-image url('/media/02/selbstbilder.jpg')
 	background-size cover
 	background-position top center
+	@media (max-width 500px)
+		h2
+			font-size 6vh !important
 
 .itemIdeale
 	background-image url('/media/02/ideale.jpg')
@@ -70,9 +76,14 @@
 	justify-content center
 	align-items flex-end
 
+	height 25rem
+
 	h2
 		font-size 7.6vh !important
 		text-align center
+	@media (max-width 500px)
+		h2
+			font-size 6.5vh !important	
 
 // ------------------ 03
 
@@ -86,15 +97,20 @@
 .itemVersicherung
 	background-image url('/media/03/versicherung.jpg')
 	background-size cover
+	h2
+		font-size 7.5vh !important
 
 .itemPapiere
 	background-image url('/media/03/papiere.jpg')
-	background-size cover
+	background-size contain
+	background-repeat no-repeat
+	background-position right bottom
+	background-color #fff !important
 
 .itemZulassung
 	background-image url('/media/03/zulassung.jpg')
 	background-size cover
-	background-position top left
+	background-position top center
 	h2
 		font-size 6vh !important
 
@@ -106,10 +122,12 @@
 	display flex !important
 	justify-content center
 	align-items flex-end
+	height 20rem
 
 	h2
-		font-size 9vh !important
-		text-align center
+		font-size 6.1vh !important
+		text-align left
+		padding-right 5rem
 
 
 .itemInternational
@@ -118,6 +136,7 @@
 	display flex !important
 	justify-content center
 	align-items center
+	height 20rem
 
 	h2
 		font-size 6vh !important
