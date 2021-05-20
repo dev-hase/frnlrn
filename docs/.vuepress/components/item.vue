@@ -46,14 +46,21 @@ export default {
 	h2
 		font-family $fontC
 		color #efefef
-		font-size 7vh
-		opacity .93
+		font-size 2rem
+		//opacity .93
 		letter-spacing .2rem
 		text-decoration underline
-		mix-blend-mode luminosity
+		mix-blend-mode hard-light
 		text-shadow -3px -2px 0 #333, 2px -2px 0 #333, -3px 2px 0 #00495a, 2px 2px 0 #00495a, 3px 2px 7px #00495a
-		@media (max-width $MQMobile)
-			font-size 4.75vh
+
+
+		@media (orientation: portrait)
+			font-size 5vw
+
+		@media (orientation: landscape)
+			font-size 6.9vh 	
+				
+
 
 	ul li 
 
@@ -65,7 +72,7 @@ export default {
 		border-radius .2rem
 		font-weight bolder
 		text-transform uppercase
-		mix-blend-mode luminosity
+		mix-blend-mode hard-light
 		font-size 1.15rem
 
 
