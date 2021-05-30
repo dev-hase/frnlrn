@@ -63,9 +63,9 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m" itemClass="itemInternational">
+<item itemSize="i-sm" itemClass="itemInternational">
 
-## Internationaler Kraftfahrzeug&shy;verkehr
+## Inter&shy;nationaler Kraft&shy;fahrzeug&shy;verkehr
 
 </item>
 

@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-l" class="l5 slabT itemTitle">	
+<item itemSize="i-m" class="l5 slabT itemTitle">	
 
 <div class="l5w">
       	<span class="l5a">Vorfahrt &</span>
@@ -17,7 +17,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m" itemClass="itemVerhalten">
+<item itemSize="i-l" itemClass="itemVerhalten">
 
 ## Verhalten
 
@@ -27,7 +27,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-xl" itemClass="">
+<item itemSize="i-xl" itemClass="itemVerhalten2">
 
 ## insbesondere durch
 

@@ -29,8 +29,10 @@
 
 .itemAggressionen
 	background-image url('/media/02/aggressionen.jpg') 
-	background-size cover
-	background-position top left
+	background-size contain
+	background-position bottom
+	background-repeat no-repeat
+	background-color #832324 !important
 
 
 .itemStress
@@ -41,7 +43,8 @@
 	@media (max-width 500px)
 		background-size contain
 		background-repeat no-repeat
-		background-color #304f63 !important
+		background-color #e0e5e8 !important
+		background-position bottom
 
 .itemEmotionen
 	background-image url('/media/02/emotionen.jpg')
@@ -72,14 +75,17 @@
 
 	h2
 		text-align center
+		margin-bottom 0 !important
 
 
 // ------------------ 03
 
 .itemFuehrenVonKfz
 	background-image url('/media/03/fuehren_von_kfz.jpg') 
-	background-size cover
-	background-position left bottom
+	background-size contain
+	background-position bottom
+	background-repeat no-repeat
+	background-color #340e3f !important
 
 
 .itemVersicherung
@@ -108,11 +114,12 @@
 	display flex !important
 	justify-content center
 	align-items flex-end
-	height 20rem
+
 
 	h2
 		text-align left
 		padding-right 5rem
+		margin-bottom 0 !important
 
 
 .itemInternational
@@ -120,17 +127,30 @@
 	background-size cover
 	display flex !important
 	justify-content center
-	align-items center
-	height 20rem
+	align-items flex-end
+	
+
 
 	h2
 		text-align center
+		margin-bottom 0 !important
 
 // ------------------ 04
 
 .itemVerkehrswege
 	background-image url('/media/04/verkehrswege.jpg') 
 	background-size cover
+
+
+.itemGrundregel
+	background-image url('/media/04/grundregel.jpg') 
+	background-size cover
+	display flex !important
+	justify-content center
+	align-items flex-end
+	h2
+		text-align center
+		margin-bottom 0 !important
 
 .itemGefahren
 	background-image url('/media/04/gefahren.jpg')
@@ -141,8 +161,30 @@
 .itemVerhalten
 	background-image url('/media/05/verhalten.jpg') 
 	background-size cover
+	background-color #297582 !important
+	background-repeat no-repeat
+	background-position center
 
+.itemVerhalten2
+	background-image url('/media/05/verhalten2.jpg') 
+	background-size cover
+	background-repeat no-repeat
+	background-position center
 
+// ------------------ 06
+
+.itemBahn
+	background-image url('/media/06/bahnübergänge.jpg') 
+	background-size cover
+	background-color #297582 !important
+	background-repeat no-repeat
+	background-position right
+
+.itemVZ
+	background-image url('/media/06/verkehrszeichen.jpg') 
+	background-size cover
+	background-repeat no-repeat
+	background-position bottom
 // ------------------ 11
 
 .itemBeleuchtung

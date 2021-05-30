@@ -39,23 +39,33 @@ export default {
 	border 3px solid #444
 	box-shadow 1px 2px 2px #222
 	
-	min-height 45vh
+	min-height 20rem
+	padding 2rem
 	@media (max-width 800px)
-		min-height 25vh
+		min-height 35vh
 
 	h2
 		font-family $fontC
-		color #efefef
-		font-size 2rem
-		//opacity .93
-		letter-spacing .2rem
-		text-decoration underline
-		mix-blend-mode hard-light
-		text-shadow -3px -2px 0 #333, 2px -2px 0 #333, -3px 2px 0 #00495a, 2px 2px 0 #00495a, 3px 2px 7px #00495a
+		color #ffffa0
+		background-color $accentColor
+		display inline-block
+		padding 0.25rem .5rem
+		font-size 3.5rem
 
+		letter-spacing .2rem
+		//text-decoration underline
+		//mix-blend-mode hard-light
+		text-shadow -3px -2px 0 #333, 2px -2px 0 #333, -3px 2px 0 #00495a, 2px 2px 0 #00495a, 3px 2px 7px #00495a
+		filter drop-shadow(3px 2px 2px #333)
+		transform rotate(-1.2deg)
+		margin-bottom 6rem
 
 		@media (orientation: portrait)
 			font-size 5vw
+
+		@media (orientation: portrait) and (max-width 640px)
+			font-size 9vw
+			margin-bottom 2rem
 
 		@media (orientation: landscape)
 			font-size 6.9vh 	
