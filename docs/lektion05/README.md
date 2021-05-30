@@ -27,7 +27,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-xl" itemClass="itemVerhalten2">
+<item itemSize="i-l" itemClass="itemVerhalten2">
 
 ## insbesondere durch
 

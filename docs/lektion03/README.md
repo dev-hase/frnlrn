@@ -3,7 +3,7 @@ pageClass: l-03
 sidebar: false
 ---
 
-# Rechtliche Rahmen&shy;bedingungen
+# Rechtliche Rahmenbedingungen
 
 <auswahl>
 
@@ -37,7 +37,7 @@ sidebar: false
 
 <item itemSize="i-sm itemUntersuchungen">
 
-## Fahrzeug&shy;unter&shy;suchungen
+## Fahrzeuguntersuchungen
 
 </item>
 
@@ -55,7 +55,7 @@ sidebar: false
 
 <item itemSize="i-xl" itemClass="itemPapiere">
 
-## Fahrzeug&shy;papiere und Führerschein
+## Fahrzeugpapiere und Führerschein
 
 - Fahrzeugbrief, Fahrzeugschein, Betriebserlaubnis, Versicherungsnachweis
 - Nachweis über Abgasuntersuchung
@@ -65,7 +65,7 @@ sidebar: false
 
 <item itemSize="i-sm" itemClass="itemInternational">
 
-## Inter&shy;nationaler Kraft&shy;fahrzeug&shy;verkehr
+## Internationaler Kraftfahrzeugverkehr
 
 </item>
 

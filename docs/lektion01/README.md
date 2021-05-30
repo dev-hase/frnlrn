@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-sm" class="l1 slabT itemTitle">	
+<item itemSize="i-m" class="l1 slabT itemTitle">	
 
    <div class="l1w">
       	<span class="l1a">Persönliche</span>

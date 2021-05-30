@@ -21,7 +21,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-xl" itemClass="itemVZ">
+<item itemSize="i-l" itemClass="itemVZ">
 
 ## Verkehrszeichen und Verkehrseinrichtungen sowie Bahnübergänge
 
@@ -34,7 +34,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m" itemClass="itemBahn">
+<item itemSize="i-xl" itemClass="itemBahn">
 
 ## Bahnübergänge
 
