@@ -36,19 +36,19 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m" itemClass="">
+<item itemSize="i-m" itemClass="itemVorrausschauen">
 
 ## Vorausschauendes Verhalten
 
 </item>
 
-<item itemSize="i-m" itemClass="">
+<item itemSize="i-m" itemClass="itemAbstand">
 
 ## Sicherheitsabstände
 
 </item>
 
-<item itemSize="i-m" itemClass="">
+<item itemSize="i-m" itemClass="itemGeschwindigkeit">
 
 ## Wahl der Geschwindigkeit 
 
@@ -58,19 +58,19 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m" itemClass="">
+<item itemSize="i-m" itemClass="itemLaerm">
 
 ## Lärmschutz
 
 </item>
 
-<item itemSize="i-m" itemClass="">
+<item itemSize="i-m" itemClass="itemGeschwindigkeit2">
 
 ## Geschwindigkeitsvorschriften
 
 </item>
 
-<item itemSize="i-m" itemClass="">
+<item itemSize="i-m" itemClass="itemWarnzeichen">
 
 ## Warnzeichen.
 

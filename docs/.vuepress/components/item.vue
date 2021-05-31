@@ -48,12 +48,13 @@ export default {
 		font-family $fontC
 		color #ffffa0
 		background-color $accentColor
+		background-image url(/img/papier2.png)
 		display inline-block
 		padding 0.25rem .5rem
 		font-size 3.5rem
 
 		letter-spacing .2rem
-		//text-decoration underline
+		text-decoration underline
 		//mix-blend-mode hard-light
 		text-shadow -3px -2px 0 #333, 2px -2px 0 #333, -3px 2px 0 #00495a, 2px 2px 0 #00495a, 3px 2px 7px #00495a
 		filter drop-shadow(3px 2px 2px #333)
@@ -61,10 +62,10 @@ export default {
 		margin-bottom 6rem
 
 		@media (orientation: portrait)
-			font-size 5vw
+			font-size 4.2vw
 
-		@media (orientation: portrait) and (max-width 640px)
-			font-size 9vw
+		@media (orientation: portrait) and (max-width 720px)
+			font-size 8vw
 			margin-bottom 2rem
 
 		@media (orientation: landscape)

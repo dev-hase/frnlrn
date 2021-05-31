@@ -27,7 +27,7 @@ export default {
 	@media (min-width 1200px)
 		grid-template-columns repeat(5, 1fr)
 
-	@media (max-width 630px)
+	@media (max-width 760px)
 		display flex
 		flex-direction column
 

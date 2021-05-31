@@ -33,7 +33,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m" itemClass="">
+<item itemSize="i-m" itemClass="itemFussgaenger">
 
 ## Verhalten an Fußgängerüberwegen und -furten
 

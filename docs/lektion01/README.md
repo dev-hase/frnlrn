@@ -7,7 +7,7 @@ sidebar: false
 
 <auswahl>
 
-<item itemSize="i-m" class="l1 slabT itemTitle">	
+<item itemSize="i-sm" class="l1 slabT itemTitle">	
 
    <div class="l1w">
       	<span class="l1a">Persönliche</span>
@@ -37,7 +37,7 @@ sidebar: false
 
 </item>
 
-<item itemSize="i-m" class="itemVorraussetzungen">
+<item itemSize="i-l" class="itemVorraussetzungen">
 
 ## Psychische und soziale Voraussetzungen
 
